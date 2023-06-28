@@ -3,7 +3,12 @@ pipeline {
   stages {
     stage('init') {
       steps {
-        echo 'start'
+        echo 'init'
+      }
+    }
+    stage('build') {
+      steps {
+        echo 'build'
       }
     }
 
